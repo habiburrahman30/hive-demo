@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'pages/home_page.dart';
+import 'pages/verify_page.dart';
 
 class App extends StatelessWidget {
   @override
@@ -11,7 +12,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: VerifyView(),
     );
   }
 }
