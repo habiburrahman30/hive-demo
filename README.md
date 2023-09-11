@@ -1,4 +1,4 @@
-# hive_demo
+# Hive demo
 
 A new Flutter project.
 
