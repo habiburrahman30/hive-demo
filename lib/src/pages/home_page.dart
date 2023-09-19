@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
               builder: (BuildContext context, Box box, Widget? child) {
                 final data = box.values.toList().cast<NotesModel>();
                 if (data.isEmpty) {
-                  return Center(child: Text('No data list'));
+                  return Center(child: Text('No data list....'));
                 } else {
                   return ListView.builder(
                     itemCount: data.length,
